@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Football Auction Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚽ Football Auction Manager</h1>
+
+<div class="top">
+  <div>You Coins: <span id="c1">1000</span>M</div>
+  <div>Friend Coins: <span id="c2">1000</span>M</div>
+</div>
+
+<button class="spinBtn" onclick="spinWheel()">🎡 Spin Position</button>
+
+<div class="wheel" id="wheel">SPIN</div>
+
+<div class="card">
+  <h2 id="pos">Position: -</h2>
+  <h3 id="name">Player: -</h3>
+  <p id="info">Rating: - | Era: -</p>
+  <p id="base">Base Price: -</p>
+</div>
+
+<div class="bidArea">
+  <div>
+    <input id="b1" type="number" placeholder="Your bid (M)">
+    <button onclick="bid(0)">Bid</button>
+  </div>
+  <div>
+    <input id="b2" type="number" placeholder="Friend bid (M)">
+    <button onclick="bid(1)">Bid</button>
+  </div>
+</div>
+
+<p id="timer">Time: 0</p>
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
