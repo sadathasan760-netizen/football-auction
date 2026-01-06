@@ -1,0 +1,65 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #38bdf8;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.spinBtn {
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wheel {
+  margin: 15px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#2563eb, #22c55e, #eab308, #ef4444);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px black;
+}
+
+.bidArea {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+input {
+  padding: 6px;
+  width: 130px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 6px 12px;
+}
